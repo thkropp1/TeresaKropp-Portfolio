@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Teresa Kropp's Profile</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="font/css/fontello.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="index.html"><img src="img/Teresa_Kropp.jpg" alt=""></a>
+      <ul class="nav nav-collapse pull-right">
+        <li><a href="index.html" class="active"><i class="icon-user"></i> Profile</a></li>
+        <li><a href="portfolio.html"><i class="icon-picture"></i> Portfolio</a></li>
+        <li><a href="img/TKROPP_resume.pdf" download><i class="icon-download"></i> Download Resume</a></li>
+      </ul>
+      <div class="nav-collapse collapse"></div>
+    </div>
+  </div>
+</div>
+<div class="container profile">
+  <div class="span3"> <img src="img/Teresa_Kropp.png" alt=""> </div>
+  <div class="span5">
+    <h1 style="color:white">Teresa Kropp</h1>
+    <h3 style="color:white">Full-Stack Web Developer</h3>
+    <p style="color:white"> A reliable and organized problem solving software developer with a competitive edge.</p>
+    <a href="#myModal1" role="button" data-toggle="modal" class="skills"><i class="icon-trophy"></i> Skills</a>
+</div>
+
+
+<div class="footer" href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+  <div class="container">
+    <a href="#myModal" style="color:white" role="button" data-toggle="modal"> <i class="icon-mail"></i> CONTACT</a>
+    <a href="https://www.linkedin.com/in/teresahkropp/" target="_blank"><img src="img/linkedin-logo.png" alt=""></a>
+    <a href="https://github.com/thkropp1" target="_blank"><img class="img-github" src="img/github-logo.png" alt=""></a>
+  </div>
+</div>
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel"><i class="icon-mail"></i> Contact Me</h3>
+  </div>
+  <div class="modal-body">
+    <form action="#">
+      <fieldset>
+      <legend><h1 style="color:black; text-decoration:underline">Teresa Kropp</h1></legend>	
+      <br> 	
+      <a href="mailto:teresa_kropp@yahoo.com"><h2 style="color:black"> Email address: teresa_kropp@yahoo.com </h2></a>
+      <br>
+      <h2 style="color:black"> Home Phone#: 818-887-4904 </h2>
+      </fieldset>
+    </form>
+  </div>
+</div>
+
+<div id="myModal1" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel"><i class="icon-trophy"></i> Skills</h3>
+  </div>
+  <div class="modal-body">
+    <form action="#">
+      <fieldset>
+      <p><legend><h2 style="color:black; text-decoration:underline">Technical Skills</h2></legend><p>	
+      <p><h3 style="color:black">Languages: C++, C#, ADA, JAVA, XML, PYTHON</h3></p>
+      <p><h3 style="color:black">Web Development: HTML5, CSS3, JavaScript, JQuery, Bootstrap, Node.js, Express.js, Handlebars.js, React.js, MySQL, MongoDB, Github, Heroku, Responsive Design, User Authentication(Passport), RESTful APIs, Trello, Slack</h3></p>
+      </fieldset>
+    </form>
+  </div>
+</div>
+
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$('#myModal').modal('hidden')
+$('#myModal1').modal('hidden')
+</script>
+</body>
+</html>
