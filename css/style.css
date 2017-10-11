@@ -4,7 +4,7 @@ body {
 	background-color: #6495ED;
 	/*background-image: url("../img/outerspace.gif");*/
 	/*background-image: url("../img/computer_bkgrd.png");*/
-	background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/computer_bkgrd.png");
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/computer_bkgrd.png");
 	background-size: cover;
 }
 .modal-header {
