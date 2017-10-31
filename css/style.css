@@ -207,7 +207,7 @@ ul.work-images li:first-child {
 	margin-left:0;
 }
 ul.work-images li div {
-	background:url(../img/Click_here.png) 50% 50% no-repeat;
+	
 	background-color: #49efd9;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -231,6 +231,28 @@ ul.work-images li img {
 ul.work-images li img:hover {
 	opacity:0.1;
 }
+.work-desc1 {
+	background:url(../img/EventStay_Info.png) 50% 50% no-repeat;
+}
+.work-desc2 {
+	background:url(../img/NYT_Info.png) 50% 50% no-repeat;
+}
+.work-desc3 {
+	background:url(../img/The_Beatles_Info.png) 50% 50% no-repeat;
+}
+.work-desc4 {
+	background:url(../img/Burger_Info.png) 50% 45% no-repeat;
+}
+.work-desc5 {
+	background:url(../img/Friend-Finder_Info.png) 30% 30% no-repeat;
+}
+.work-desc6 {
+	background:url(../img/Train_Time_Scheduler.png) 50% 50% no-repeat;
+}
+.work-desc7 {
+	background:url(../img/Click_here.png) 50% 50% no-repeat;
+}
+
 .footer {
 	background:#00008B;
 	position: fixed;
